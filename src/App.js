@@ -1,12 +1,14 @@
 
-import './App.css';
+import React from 'react';
+import Question from './components/Question/Question';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>hi daily activity  okay </h1>
+    <div>
+      <h1>kawser ahamed </h1>
+      <Question></Question>
     </div>
   );
-}
+};
 
 export default App;
