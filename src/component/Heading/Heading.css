@@ -1,0 +1,15 @@
+.heading{
+    margin: 5px;
+    background-color: cadetblue;
+    
+}
+ h1{
+    text-align: center;
+}
+.navflex{
+    display: flex;
+}
+.flex-img{
+    height: 50px;
+    width: 50px;
+}

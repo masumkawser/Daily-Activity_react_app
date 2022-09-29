@@ -1,0 +1,137 @@
+.summary {
+    margin: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.user-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 20%;
+    margin-top: 20px;
+}
+
+.user-container {
+    display: flex;
+}
+
+.user-details {
+    margin-top: 5px;
+    margin-left: 15px;
+    line-height: 15px;
+}
+
+.user-container p {
+    font-weight: 600;
+    font-size: large;
+}
+
+.user-container address {
+    color: gray;
+}
+
+.user-personal-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    line-height: 15px;
+    background-color: rgba(215, 221, 250, 0.367);
+    width: 265px;
+}
+
+.user-personal-info sub {
+    color: gray;
+}
+
+.user-personal-info span {
+    font-weight: 700;
+    font-size: x-large;
+}
+
+
+/* break section */
+.add-break {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    line-height: 15px;
+    background-color: rgba(215, 221, 250, 0.367);
+    width: 265px;
+}
+
+.btn-break {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+}
+
+.btn-break:hover {
+    background-color: green;
+    color: white;
+}
+
+/* biking details */
+.riding-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    line-height: 10px;
+    background-color: rgba(215, 221, 250, 0.367);
+    width: 265px;
+}
+
+.riding-time p {
+    color: gray;
+    margin-left: 10px;
+}
+
+/* break time */
+.break-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    line-height: 10px;
+    margin-top: 20px;
+    background-color: rgba(215, 221, 250, 0.367);
+    width: 265px;
+}
+
+.break-time p {
+    color: gray;
+}
+
+
+
+/* activity completed button */
+.activity-button {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-completed {
+    background-color: olivedrab;
+    color: white;
+    margin-top: 30px;
+    border: none;
+    padding: 15px 80px;
+    border-radius: 10px;
+}
+
+.btn-completed:hover {
+    background-color: darkgreen;
+}
