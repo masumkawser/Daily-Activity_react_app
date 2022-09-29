@@ -1,15 +1,16 @@
 import React from 'react';
+import swal from 'sweetalert';
 import"./Profile.css";
 const Profile = () => {
     return (
-        <div>
+        <div className='profile-cart'>
             <div className='profile'>
-            <h3>Md.Kawser ahamed</h3>
+            <h6>Md.Kawser ahamed</h6>
             <p>web developer</p>
             </div>
-            <div className='profile'>
-            <h3>Md.Kawser ahamed</h3>
-            <p>web developer</p>
+            <div>
+            <h3>Location</h3>
+            <p>Dhaka,Bangladesh</p>git
             </div>
             <h3>Add Break</h3>
             <div className='profile'>
@@ -20,9 +21,9 @@ const Profile = () => {
             </div>
             <h3>Activity details</h3>
             <label>Activity Time: </label><input></input><br></br>
-            <label>Break Time: </label><input></input>
+            <label>Break Time: </label><input></input><br></br>
             <div>
-                
+            <button>Activity sucessfull</button>
             </div>
         </div>
     );
