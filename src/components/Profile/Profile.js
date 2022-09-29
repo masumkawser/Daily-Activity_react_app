@@ -18,6 +18,12 @@ const Profile = () => {
             <button>20 minit</button>
             <button>25 minit</button>
             </div>
+            <h3>Activity details</h3>
+            <label>Activity Time: </label><input></input><br></br>
+            <label>Break Time: </label><input></input>
+            <div>
+                
+            </div>
         </div>
     );
 };
