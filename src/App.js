@@ -1,11 +1,12 @@
 
 import React from 'react';
+import Header from './components/Header/Header';
 import Question from './components/Question/Question';
 
 const App = () => {
   return (
     <div>
-      <h1>kawser ahamed </h1>
+    <Header></Header>
       <Question></Question>
     </div>
   );
